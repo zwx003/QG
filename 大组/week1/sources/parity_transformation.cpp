@@ -1,4 +1,4 @@
-#include"max.h"
+#include"week1.h"
 void* transformation(List& head)
 {
 	List p = head, r = head->next;//0 1 2 3 head 是0，不储存数据

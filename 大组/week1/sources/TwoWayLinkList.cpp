@@ -1,4 +1,4 @@
-#include"max.h"
+#include"week1.h"
 void TwoWayLinkList(List& head)
 {
 	int i;

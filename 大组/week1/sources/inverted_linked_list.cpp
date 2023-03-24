@@ -1,4 +1,4 @@
-#include"max.h"
+#include"week1.h"
 void inverted_linked_list(List& head)
 {
 	int i;

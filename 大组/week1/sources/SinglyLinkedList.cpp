@@ -1,4 +1,4 @@
-#include"max.h"
+#include"week1.h"
 void SinglyLinkedList(List& head)
 {
 	head = new Node;

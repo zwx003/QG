@@ -1,4 +1,4 @@
-﻿#include"max.h"
+﻿#include"week1.h"
 void output(List& head)
 {
     List p = head->next;

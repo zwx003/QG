@@ -1,4 +1,4 @@
-#include"max.h"
+#include"week1.h"
 void middle(List& head)
 {
 	int n = 0;
