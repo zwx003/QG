@@ -33,31 +33,43 @@ int main()
         case'a':
             inverted_linked_list(head);
             output(head);
+            system("pause");
+            system("cls");
             break;
         case'B':
         case'b':
             TwoWayLinkList(head);
+            system("pause");
+            system("cls");
             break;
         case'C':
         case'c':
             Circle_List_Judge(head);
             Judge(head);
+            system("pause");
+            system("cls");
             break;
         case'D':
         case'd':
             inverted_linked_list(head);
             middle(head);
+            system("pause");
+            system("cls");
             break;
         case'E':
         case'e':
             inverted_linked_list(head);
             transformation(head);
             output(head);
+            system("pause");
+            system("cls");
             break;
         case'F':
         case'f':
             SinglyLinkedList(head);
             Judge(head);
+            system("pause");
+            system("cls");
             break;
         case'G':
         case'g':
