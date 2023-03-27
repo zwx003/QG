@@ -100,5 +100,6 @@ int main()
         case'h':
             return 0;
         }
+        system("cls");
     }
 }
