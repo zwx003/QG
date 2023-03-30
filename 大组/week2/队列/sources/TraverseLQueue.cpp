@@ -3,8 +3,10 @@
 Status TraverseLQueue(const LQueue* Q,char type )
 {
 	if (Q->front == Q->rear)
+	{
 		printf("ERROR\n");
-		return FLASE;
+		return FALSE;
+	}
 	node* p = Q->front->next;
 	while (p != NULL)
 	{
@@ -19,5 +21,5 @@ Status TraverseLQueue(const LQueue* Q,char type )
 			printf("%c\n", *(char*)p->data);
 		p = p->next;
 	}
-	return TURE;
+	return TRUE;
 }
